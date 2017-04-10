@@ -1,0 +1,696 @@
+/*
+* @Author: 曹越
+* @Date:   2017-03-29 15:18:13
+* @Last Modified by:   曹越
+* @Last Modified time: 2017-03-30 10:52:06
+*/
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+/* 头部开始 */
+.toubu{
+	width: 100%;
+	height: 44px;
+	background: yellow;
+	background: rgba(0,0,0,0.8);
+	line-height: 44px;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.toubu .con1{
+	width: 1000px;
+	height: 24px;
+	margin: 0 auto;
+	
+	text-align: justify;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+.toubu .con1:after{
+	width:100% ;
+	height: 0;
+	content: "";
+	display: inline-block;
+}
+.toubu a{
+	display: inline-block;
+}
+a:hover {
+	color: #ccc;
+}
+.con2{
+	width: 100%;
+	height: 44px;
+	text-align: justify;
+	box-sizing: border-box;
+	font-size: 24px;
+	display: none;
+}
+.toubu .con2:after{
+	width: 100%;
+	height: 44px;
+	content: "";
+	display: inline-block;
+}
+.con2b{
+	width: 100%;
+	height: 420px;
+	background: #000000;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	opacity: 0;
+	transition: all 1.5s;
+}
+
+.con2 .con3 .con2a{
+	position: absolute;
+	
+}
+.con2b:hover{
+	opacity: 1;
+}
+
+.con2b ul li{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	font-size: 24px;
+	color: #Fff;
+}
+.con2b ul{
+	margin-left: 20px;
+	margin-right:20px;
+}
+.con2b ul li a:hover{
+	color: #ccc;
+}
+
+
+
+
+
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 540px;
+	background-color: #CC3341;
+	position: relative;
+}
+
+	
+	
+.banner-img{
+	width:100% ;
+	height: 540px;
+	background-image: url(../appleimg/iphone7_large.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 200px;
+	display: block;
+	position: absolute;
+}
+.banner-img .zifua{
+	width: 60px;
+	height: 20px;
+	border-radius: 5%;
+	border: 2px solid #fff;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 55px auto;
+}
+.banner-img .zifub{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	margin: 5px auto;
+	
+}
+.banner-img .zifuc{
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 34px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	margin: 5px auto;
+}
+.banner-img .left{
+	height: 100%;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.banner-img .right{
+	height: 100%;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.banner-img .left .lefta{
+	width: 64px;
+	height: 64px;
+	background: #C94652;
+	border-radius: 50%;
+	line-height: 64px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 20px;
+	margin: auto;
+	text-align: center;
+	font-size: 50px;
+	opacity: 0;
+	transition: all 1s;
+}
+.banner-img .lefta:hover{
+	opacity: 1
+}
+.banner-img .right .righta{
+	width: 64px;
+	height: 64px;
+	background: #C94652;
+	border-radius: 50%;
+	line-height: 64px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 20px;
+	margin: auto;
+	text-align: center;
+	font-size: 50px;	
+	opacity: 0;
+	transition: all 1s;
+
+}
+.banner-img .righta:hover{
+	opacity: 1
+}
+ /* <!-- 头部结束 --> */
+ /* 内容开始 */
+.neirong{
+	width: 100%;
+	height: 200px;
+}
+.neironga{
+	width: 25%;
+	height: 200px;
+	background:green;
+	float: left;
+	background-image: url(../appleimg/a_small.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.neirongb{
+	width: 25%;
+	height: 200px;
+	background:green;
+	float: left;
+	background-image: url(../appleimg/i_small.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.reirong a{
+		display: block;
+		width: 25%;
+		height: 200px;
+	}
+.neirongc{
+	width: 25%;
+	height: 200px;
+	background:green;
+	float: left;
+	background-image: url(../appleimg/s_small.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.neirongd{
+	width: 25%;
+	height: 200px;
+	background:green;
+	float: left;
+	background-image: url(../appleimg/w_small.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* 内容结束 */
+/* 底部开始 */
+.bottom{
+	height: 421px;
+	width: 1000px;
+	background: #F2F2F2;
+	margin: 0 auto;
+}
+
+.bottom .bot1{
+	width: 980px;
+	height: 50px;
+	/* background: red; */
+	border-bottom:  1px solid #D6D6D6;
+	margin: 0 auto;
+}
+
+
+.bottom .bot1 span{
+	line-height: 50px;
+	font-size: 12px;
+	color: #888888;
+}
+
+
+/* <!-- 底栏 信息 --> */
+.bottom .bot2{
+	width: 1000px;
+	height: 205px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left:  10px;
+}
+.bottom .bot2 ul li{
+	width: 196px;
+	height: 201px;
+	float: left;
+	font-size: 12px;
+}
+.bottom .bot2 ul li span{
+	height: 30px;
+	margin-bottom:15px;
+	line-height: 30px;
+	color: #333333;
+}
+.bottom .bot2 ul li a{
+	display: block;
+	height: 13px;
+	margin-bottom:7px;
+	color: #555555;
+}
+.bottom .bot2 ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+/* <!-- 更多信息 最底部 --> */
+.bottom .gengduo{
+	width: 1000px;
+	height:54px;
+	/* background: red; */
+	margin: 0 auto;
+	padding-top: 34px;
+	padding-left: 10px;
+	padding-bottom: 21px;
+}
+.bottom .gengduo .gengduo1{
+	width: 1000px;
+	height:17px;
+	/* background: red; */
+	margin: 0 auto;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #D6D6D6;
+	margin-bottom:7px;
+}
+.bottom .gengduo .gengduo1 span{
+	font-size: 12px;
+	color: #888888;
+}
+.bottom .gengduo .gengduo1 a{
+	font-size: 12px;
+	color: #0070C9;
+}
+.bottom .gengduo .gengduo2{
+	width: 1000px;
+	height:23px;
+	/* background: red; */
+	margin: 0 auto;
+	margin-bottom:0px;
+}
+.bottom .gengduo .gengduo2 span{
+	font-size: 12px;
+	color: #888888;
+	float: left;
+}
+.bottom .gengduo .gengduo2 ul li{
+	font-size: 12px;
+	float: left;
+	color: #888888;
+}
+.bottom .gengduo .gengduo2 ul li a{
+	/* font-size: 12px; */
+	/* float: left; */
+	color: #555555;
+}
+.bottom .gengduo .gengduo2 ul li span{
+	font-size: 12px;
+	float: left;
+	margin: 0 5px;
+	color: #888888;
+}
+.bottom .gengduo .gengduo3{
+	width: 1000px;
+	height:17px;
+	/* background: red; */
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+.bottom .gengduo .gengduo3 span{
+	font-size: 12px;
+	color: #888888;
+	float: left;
+}
+.botaa{
+	width: 100%;
+	height: auto;
+	margin-right: 20px;
+	display: none;
+	
+}
+.botab{
+	width: 100%;
+	height: 290px;
+	margin-right: 20px;
+}
+.botab li{
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid #000;
+	line-height: 38px;
+	position: relative;
+	margin-right: 20px;
+}
+
+.botac{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	display: none;
+	z-index: 10;
+	margin-right: 20px;
+}
+
+.botab li:hover .botac{
+	display: block;
+}
+.botac li {
+	width: 100%;
+	height: 20px;
+	background: #ccc;
+	margin-right: 20px;
+}
+
+.botad{
+	font-size: 14px;
+	float: right;
+	margin-right: 20px;
+}
+
+@media screen and (max-width:1000px){
+	.con1{
+		width: 100%;
+		height: 500px;
+		padding: 0 20px;
+	}
+	.con2{
+		display: none;
+	}
+	.banner{
+	width: 100%;
+	height: 540px;
+	background-color: #CC3341;
+	}
+	.banner-img{
+	width:100% ;
+	height: 500px;
+	background-image: url(../appleimg/iphone7_medium.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 200px;
+	display: block;
+	position: absolute;
+	}
+	.neirong{
+	width: 100%;
+	height: 400px;
+	}
+	.neironga{
+		width: 49%;
+		height: 200px;
+		background:green;
+		float: left;
+		background-image: url(../appleimg/a_medium.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.neirongb{
+		width: 49%;
+		height: 200px;
+		background:green;
+		float: left;
+		margin-left: 2%;
+		background-image: url(../appleimg/i_medium.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.neirongc{
+		width: 49%;
+		height: 200px;
+		background:green;
+		float: left;
+		background-image: url(../appleimg/s_medium.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.neirongd{
+		width: 49%;
+		height: 200px;
+		background:green;
+		float: left;
+		margin-left: 2%;
+		background-image: url(../appleimg/w_medium.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+	.bottom{
+		height: 421px;
+		width: 100%;
+		float: left;
+		background: #F2F2F2;
+		overflow: hidden;
+	}
+
+	.bottom .bot1{
+		width: 100%;
+		height: 50px;
+		/* background: red; */
+		border-bottom:  1px solid red;
+		margin: 0 auto;
+	}
+
+
+	.bottom .bot1 span{
+		line-height: 50px;
+		font-size: 12px;
+		color: #888888;
+	}
+
+
+		/* <!-- 底栏 信息 --> */
+	.bottom .bot2{
+		width: 100%;
+		height: 205px;
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-left:  10px;
+	}
+	.bottom .bot2 ul li{
+		width: 20%;
+		height: 201px;
+		float: left;
+		font-size: 12px;
+	}
+	.bottom .bot2 ul li span{
+		height: 30px;
+		margin-bottom:15px;
+		line-height: 30px;
+		color: #333333;
+	}
+	.bottom .bot2 ul li a{
+		display: block;
+		height: 13px;
+		margin-bottom:7px;
+		color: #555555;
+	}
+	.bottom .bot2 ul li a:hover{
+		text-decoration: underline;
+	}
+
+
+
+
+
+
+
+	/* <!-- 更多信息 最底部 --> */
+	.bottom .gengduo{
+		width: 100%;
+		height:54px;
+		/* background: red; */
+		margin: 0 auto;
+		padding-top: 34px;
+		padding-bottom: 21px;
+	}
+	.bottom .gengduo .gengduo1{
+		width: 100%;
+		height:17px;
+		/* background: red; */
+		margin: 0 auto;
+		padding-bottom: 6px;
+		border-bottom: 1px solid #D6D6D6;
+		margin-bottom:7px;
+	}
+	.bottom .gengduo .gengduo1 span{
+		font-size: 12px;
+		color: #888888;
+	}
+	.bottom .gengduo .gengduo1 a{
+		font-size: 12px;
+		color: #0070C9;
+	}
+	.bottom .gengduo .gengduo2{
+		width: 100%;
+		height:23px;
+		/* background: red; */
+		margin: 0 auto;
+		margin-bottom:0px;
+	}
+	.bottom .gengduo .gengduo2 span{
+		font-size: 12px;
+		color: #888888;
+		float: left;
+	}
+	.bottom .gengduo .gengduo2 ul li{
+		font-size: 12px;
+		float: left;
+		color: #888888;
+	}
+	.bottom .gengduo .gengduo2 ul li a{
+		/* font-size: 12px; */
+		/* float: left; */
+		color: #555555;
+	}
+	.bottom .gengduo .gengduo2 ul li span{
+		font-size: 12px;
+		float: left;
+		margin: 0 5px;
+		color: #888888;
+	}
+	.bottom .gengduo .gengduo3{
+		width: 100%;
+		height:17px;
+		/* background: red; */
+		margin: 0 auto;
+		margin-bottom:20px;
+	}
+	.bottom .gengduo .gengduo3 span{
+		font-size: 12px;
+		color: #888888;
+		float: left;
+	}
+	.botaa{
+		width: 100%;
+		height: auto;
+		margin-right: 20px;
+		display: none;
+		
+	}
+	.botab{
+		width: 100%;
+		height: 290px;
+		margin-right: 20px;
+	}
+	.botab li{
+		width: 100%;
+		height: 38px;
+		border-bottom: 1px solid #000;
+		line-height: 38px;
+		position: relative;
+		margin-right: 20px;
+	}
+
+	.botac{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		display: none;
+		z-index: 10;
+		margin-right: 20px;
+	}
+
+	.botab li:hover .botac{
+		display: block;
+	}
+	.botac li {
+		width: 100%;
+		height: 20px;
+		background: #ccc;
+		margin-right: 20px;
+	}
+
+	.botad{
+		font-size: 14px;
+		float: right;
+		margin-right: 20px;
+	}
+	.bottom .bot2{
+		width: 100%;
+		height: 205px;
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-left:  10px;
+	}
+	.bottom .bot2 ul li{
+		width: 20%;
+		height: 201px;
+		float: left;
+		font-size: 12px;
+	}
+	.bottom .bot2 ul li span{
+		height: 30px;
+		margin-bottom:15px;
+		line-height: 30px;
+		color: #333333;
+	}
+	.bottom .bot2 ul li a{
+		display: block;
+		height: 13px;
+		margin-bottom:7px;
+		color: #555555;
+	}
+	.bottom .bot2 ul li a:hover{
+		text-decoration: underline;
+	}
+
+}
